@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>高考信息表</title>
+	</head>
+	<body>
+	    <p align="center" style="font-family: '黑体'; font-size: 30px;" >高考志愿填报表</p>
+		<table border="1" align="center"style="border-collapse: collapse;"width="40">
+			<tr>
+				<td align="center">姓名 </td>
+				<td >
+					<input type="text">
+				</td>
+				<td align="left" colspan="3">性别 <input type="radio" name="huaji">男
+				<input type="radio" name="huaji" />女
+				</td>
+				<td align="center">年龄 <input type="number" min="12" style="width: 40px;height: 20px;" />
+				</td>
+				<td align="center" colspan="2">民族 <input list="xxx" />
+				<datalist id="xxx">
+					<option value="汉族"></option>
+					<option value="滑稽族"</option>
+					<option value="山地族"></option>
+				</datalist>
+				        
+				</td>
+				<td rowspan="4" align="center"> 
+				    <img src="img/timg.jpg" width="75" height="100"/>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" >出生日期</td>
+				<td align="center" colspan="2"> <input type="date"/> </td>
+				<td align="center" colspan="2">准考证号</td>
+				<td align="center" colspan="2"> <input type="text" style="width: 350px;"    </td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2" align="center">高考成绩</td>
+				<td align="center">语文</td>
+				<td> <input type="text"</td>
+				<td align="center">数学 </td>
+				<td colspan="3"> <input type="text"</td>
+			</tr>
+			<tr>
+				<td align="center">英语 </td>
+				<td> <input type="text"</td>
+				<td align="center">理科综合 </td>
+				<td colspan="3"> <input type="text"</td>
+			</tr>
+			<tr>
+				<td>所在省份 </td>
+				<td colspan="3"><input list="aaa" style="width: 350px;" /> 
+				<datalist id="aaa">
+					<option value="湖南省"></option>
+					<option value="上海市"></option>
+				</datalist></td>
+				<td>家庭住址</td>
+				<td colspan="4"> <input type="text" style="width: 450px;" /></td>
+			</tr>
+			<tr>
+				<td>毕业学校</td>
+				<td colspan="8"> <input type="text" style="width: 700px;" />  </td>
+			</tr>
+			<tr>
+				<td align="center">EMAIL</td>
+				<td colspan="4"> <input type="text" style="width: 500px;" /> </td>
+				<td align="center">电话</td>
+				<td colspan="3"> <input type="tel" style="width: 300px;" />  </td>
+			</tr>
+			<tr>
+				<td align="center">个人爱好</td>
+				<td colspan="9" > <input type="text" style="width: 980px;height: 40px; "/> </td>
+			</tr>
+			<tr>
+				<td rowspan="1" align="center">特长</td>
+				<td  colspan="11"> <input type="text" style="width: 980px;height: 120px; /> </td>
+			</tr>
+			<tr id="sb">
+				<td  colspan="" align="center">有无加分 <input type="radio" name="a" />是
+				<input type="radio" name="a"/> 否     </td>
+			</tr>
+			<tr>
+				<td>加分项</td>
+				<td><input type="checkbox" name="123" />少数民族
+				<input type="checkbox" name="123" />军人子女
+				</td>
+			</tr>
+			
+			
+			
+			
+			
+			
+			
+			
+		</table>
+		
+	</body>
+</html>
