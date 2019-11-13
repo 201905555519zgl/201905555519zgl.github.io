@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>极简天猫</title>
+        <style>
+		.box1{
+			margin-left: 50px;
+		}
+		.a{
+			display: flex;
+			height: 100%;
+			width: 100%;
+			margin: 0 auto;
+			flex-wrap: wrap;
+			justify-content:space-around;
+			border: groove crimson;	
+			align-items: center;
+		}
+		.a1{
+			width: 150px;
+			height: 300px;
+		}
+		.picture1{
+			margin-left: 20px;
+		}
+		
+		@media only screen and (max-width:800px ) 
+		{ 
+		     .a1{
+				width: 100%;
+				height: 500px;
+			}
+			.picture1{
+				width: 80%;
+				height: 500px;	
+			}
+		}
+		@media only screen and (min-width: 800px) {
+			.a1{
+				width: 30%;
+				height: 400px;
+			}	
+		}
+		</style>
+	</head>
+	<body>	
+	  	<div class="box1">
+	  			<img  src="img/QQ图片20191113222632.png" style="width: 100%; height: auto;">
+	  		</div>
+	  		
+			
+		<div class="a">
+			<div class="a1">
+				<a href=""><img class="picture1" src="img/QQ图片20191113224752.png" width="270px" height="365px"></a>	
+			</div>
+			<div class="a1">
+				<a href=""><img class="picture1" src="img/QQ图片20191113225308.png" width="270px" height="365px"></a>
+			</div>
+			<div class="a1">
+				<a href=""><img class="picture1" src="img/QQ图片20191113225455.png" width="270px" height="365px"></a>
+			</div>
+			
+			
+			
+		
+		</div>
+		
+		
+	
+	
+
+</body>
+</html>
